@@ -10,19 +10,19 @@ Topic: - Navigating Airports Using Graph Algorithms
 Mentor TA's : - Jainan Nareshkumar Tandel (M23CSA010) & Dhruv(B20EE016) 
 
 
-Team Members : -
+Team Menmbers : -
 1. Vishwjeetsinh Jadeja (B22MT023)
 2. Aaditya Kamble (B22MT024)
 3. Sahil (B22MT038)
 4. Ghanshyam Suthar (B22PH009)
 
-In case of any Problem while using these codes contact Aaditya Kamble (b22mt024@iitj.ac.in)
+In case of any Problem while using this codes contact Aaditya Kamble (b22mt024@iitj.ac.in)
 
-**This File Contains Instructions on how to use the codes submitted by our group**
+***This File Contains Instructions on how to use the codes submitted by our group***
 Link to the Github Repo: - "https://github.com/DSA-IITJ-2024/ideathon-code-submission-b22mt024"
 
-what our submission contains: -
-A) 2 CSV files
+what our subbmission contains: -
+A) 2 csv files
     1. airports_final.csv
     2. routes_final.csv
 
@@ -36,15 +36,15 @@ C) 1 svg file
 D) 1 xl file
 
 **How to Use**
-1. Make sure that two CSV files and 3 code files are placed in the same folder.
-2. open cmd in the folder where all files are placed.
-3. Use the following commands 
+1. Make sure that two csv files and 3 code files are placed in same folder.
+2. open cmd in the folder all files are placed.
+3. Use the following comands 
       To Compile: -
           Dijkstra: - "gcc -w dijkstra.c -o dijkstra"
           Bellman-Ford: - "gcc -w Bellman.c -o bellman"
           Floyd: - "gcc -w floyd.c -o floyd"
         
-        Ensure to include "-w" while compiling to avoid errors.
+        make sure to include "-w" while compiling to avoid any errors.
           
       To Execute: -
           Dijkstra: -"dijkstra"
@@ -57,6 +57,6 @@ D) 1 xl file
         Bellman.c: -"./bellman"
         floyd.c: - "./floyd"
 
-5. After Executing, The program will ask for input and output IATA codes. For that, you can refer to the CSV files. The airport file contains information about every airport. There, you can find IATA codes; there is also a route CSV file where only the IATA codes are mentioned of source and destination airports.
-6. an SVG File was generated on this dataset, which visualizes the data along with the weights. You can refer to that to verify the output.
+5. After Executing The program will ask for input and output IATA codes For that you can reffer to the CSV files the airports file contains informatation of every airport there you can find IATA codes, there is also a routes csv file where only the IATA codes are mentioned of source and destinatation airports.
+6. There is a SVG File that was gentrated on this dataset which visvalizes the data along with the weights you can refer to that to verify the output.
 7. the timecomplexity.xlxs file contains the result graphs.
