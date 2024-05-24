@@ -1,16 +1,14 @@
----
-
-## CSL2020 | Data Structure and Algorithms | Jan2024 
+# CSL2020 | Data Structure and Algorithms | Jan 2024
 
 **Instructor:** Suchetana Chakraborty
 
-**Group Project:**
+## Group Project:
 - **Topic:** Navigating Airports Using Graph Algorithms
-- **Mentor TAs:** 
+- **Mentor TAs:**
   - Jainan Nareshkumar Tandel (M23CSA010)
   - Dhruv (B20EE016)
 
-**Team Members:**
+## Team Members:
 1. Vishwjeetsinh Jadeja (B22MT023)
 2. Aaditya Kamble (B22MT024) - [b22mt024@iitj.ac.in](mailto:b22mt024@iitj.ac.in)
 3. Sahil (B22MT038)
@@ -18,70 +16,67 @@
 
 **GitHub Repo:** [ideathon-code-submission-b22mt024](https://github.com/DSA-IITJ-2024/ideathon-code-submission-b22mt024)
 
-**Contents:**
+## Contents:
 - **CSV Files:**
-  1. airports_final.csv: Contains all the airport information which are used as vertices.
-  2. routes_final.csv: Contains all the routes data which is used for making edges.
+  1. `airports_final.csv`: Contains all the airport information used as vertices.
+  2. `routes_final.csv`: Contains all the routes data used for making edges.
 - **C Code Files:**
-  1. dijkstra.c
-  2. Bellman.c
-  3. floyd.c
+  1. `dijkstra.c`
+  2. `Bellman.c`
+  3. `floyd.c`
 - **Other Files:**
-  1. visualization.svg: Shows the visualization for the made graphs.
-  2. Distance_matrix.txt: Contains the output matrix given by the Floyd algorithm.
-  3. timecomplexity.xlxs: Contains all the results and graphs.
-  4. DSAIdeathon.pptx: Presentation.
-  5. DSAIdeathon.pdf: Presentation.
-  
-**PPT Link:** [https://www.canva.com/design/DAGD0ScPLPQ/Yi3yC_BpVxUc4rswWLn8ow/edit](https://www.canva.com/design/DAGD0ScPLPQ/Yi3yC_BpVxUc4rswWLn8ow/edit)
+  1. `visualization.svg`: Shows the visualization of the graphs.
+  2. `Distance_matrix.txt`: Contains the output matrix given by the Floyd algorithm.
+  3. `timecomplexity.xlsx`: Contains all the results and graphs.
+  4. `DSAIdeathon.pptx`: Presentation.
+  5. `DSAIdeathon.pdf`: Presentation.
 
-**How to Use:**
-1. Make sure that two CSV files and three code files are placed in the same folder.
-2. Open cmd in the folder where all files are placed.
+**PPT Link:** [View Presentation](https://www.canva.com/design/DAGD0ScPLPQ/Yi3yC_BpVxUc4rswWLn8ow/edit)
+
+## How to Use:
+1. Make sure that the two CSV files and the three code files are placed in the same folder.
+2. Open the command prompt in the folder where all the files are placed.
 3. Use the following commands to compile:
-   - **Dijkstra:** 
-     ```
+   - **Dijkstra:**
+     ```sh
      gcc -w dijkstra.c -o dijkstra
      ```
-   - **Bellman-Ford:** 
-     ```
+   - **Bellman-Ford:**
+     ```sh
      gcc -w Bellman.c -o bellman
      ```
-   - **Floyd:** 
-     ```
+   - **Floyd:**
+     ```sh
      gcc -w floyd.c -o floyd
      ```
-   Ensure to include "-w" while compiling to avoid any errors.
+   Ensure to include the `-w` flag while compiling to avoid any warnings.
 4. To execute the programs, use the following commands:
-   - **Dijkstra:** 
-     ```
-     dijkstra
-     ```
-   - **Bellman-Ford:** 
-     ```
-     bellman
-     ```
-   - **Floyd:** 
-     ```
-     floyd
-     ```
-5. If you are using VS Code, you can run the following commands in the terminal:
-   - **dijkstra.c:** 
-     ```
+   - **Dijkstra:**
+     ```sh
      ./dijkstra
      ```
-   - **Bellman.c:** 
-     ```
+   - **Bellman-Ford:**
+     ```sh
      ./bellman
      ```
-   - **floyd.c:** 
+   - **Floyd:**
+     ```sh
+     ./floyd
      ```
+5. If you are using VS Code, you can run the following commands in the terminal:
+   - **dijkstra.c:**
+     ```sh
+     ./dijkstra
+     ```
+   - **Bellman.c:**
+     ```sh
+     ./bellman
+     ```
+   - **floyd.c:**
+     ```sh
      ./floyd
      ```
 6. After executing, the program will ask for input and output IATA codes. You can refer to the CSV files for airport information. The routes CSV file contains information about the source and destination airports.
-7. Use the visualization.svg file to verify the output.
+7. Use the `visualization.svg` file to verify the output.
 
-
-**Note:** Ensure that the "-w" flag is included while compiling to avoid errors.
-
----
+**Note:** Ensure that the `-w` flag is included while compiling to avoid warnings.
